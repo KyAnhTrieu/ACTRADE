@@ -1,0 +1,145 @@
+
+@media screen and (max-width: 390px) {
+    #root .App {
+        width: 100vw;
+        height: 545px;
+    }
+    .App .header {
+        min-width: 375px;
+        padding: 10px 10px;
+        height: 80px;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .App .header__nav  {
+        margin-left: 0;
+    }
+    .App .header-nav__list {
+        padding: 5px;
+    }
+    .App .header-nav__link, .header__login a {
+        font-size: 1.3rem;
+    }
+    .App .header__logo img {
+        max-height: 35px;
+    }
+    .App .header__login {
+        display: none;
+    }
+    .App .mid {
+        min-width: 390px;
+        margin-top: 180px;
+    }
+    .App .mid__title h1 {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+    .App .mid__content i {
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    .App .main__index-mockup {
+        display: none;
+    }
+    .App .main__index-content {
+        width: 90%;
+        margin-top: 50px;
+    }
+    .App .main__index-content h3 {
+        color: #fff;
+        margin-top: -50px;
+    }
+    .App .index-content__list {
+        margin-top: 10px;
+    }
+    .App .index-content__list-item {
+        min-width: 150px;
+        max-width: 150px;
+    }
+    .App .main__index-content-two {
+        width: 95%;
+        margin: 20px auto 0;
+        flex-direction: column;
+    }
+    .App .index-content-two__list {
+        align-items: center;
+    }
+    .App .index-content-two__list h3 {
+        text-align: center;
+    }
+    .App .main__download {
+        display: none;
+    }
+    .App .main__partner {
+        width: 95%;
+    }
+    .App .main__partner-box {
+        gap: 10px;
+        font-size: 1rem;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .App .main__partner-list {
+        height: 50px;
+        width: 150px;
+    }
+    .App .main__partner-list img {
+        width: 100%;
+    }
+    .App footer {
+        height: 20px;
+    }
+    .App .footer {
+        display: none;
+    }
+    /* dt----------------------------- */
+    .App .main__doi-tac-content {
+        width: 95%;
+        min-width: 390px;
+        margin: -300px auto 0; 
+    }
+    .App .main__doi-tac-content-box {
+        flex-wrap: wrap;
+        margin-top: -20px;
+    }
+    .App .main__doi-tac-content-box-list {
+        padding: 50px 20px;
+    }
+    .App .partner__mobile {
+        margin-top: 20px;
+    }
+    .App .main__doi-tac-content-vw {
+        min-width: 390px;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .App .mbp h3 {
+        color: #111;
+        font-size: 2.6rem;
+    }
+    /* hdcb------------------------------------ */
+    .App .main__kien-thuc-content {
+        min-width: 390px;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .App .main__content-vw {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .App .mbhdcb {
+    }
+    /* email --------------------------------- */
+    .App .main__email {
+        min-width: 360px;
+        margin: 150px auto 0;
+    }
+    .App .main__email-note {
+        top: 65px;
+        font-size: 1rem;
+    }
+    .App .main__email-form {
+        padding: 100px 50px 50px;
+    }
+}
